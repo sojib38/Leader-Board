@@ -2,4 +2,88 @@
     font-family: 'Jost', sans-serif;
     margin: 0;
     padding: 0;
+    
 }
+
+/* Header section start */
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(83, 83, 253);
+    
+}
+
+header nav{
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* Nav section start */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img{
+    height: 50px;
+    width: 50px;
+}
+
+.logo-container{
+    display: flex;
+    margin-top: 25px;
+}
+
+.logo-h1{
+    color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nav-items a{
+    text-decoration: none;
+    margin-right: 40px;
+    color: white;
+}
+
+
+/* Nav section end */
+
+
+
+
+/* Header section end */
+
+
+body{
+    background-color: rgb(237, 242, 242);
+}
+
+/* Top section start */
+
+.top-sec{
+    width: 60%;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+.player-container img{
+    height: 50px;
+    width: 50px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+
+/* Top section End */
