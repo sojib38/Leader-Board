@@ -155,3 +155,74 @@ body{
     color: rgb(160, 71, 244);
 }
 /* Blog section end */
+
+/* Courses Section start */
+
+.courses-sec{
+    width: 60%;
+    margin: 40px auto;
+    padding: 30px 30px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+
+.course-h1{
+    color: rgb(162, 81, 239);
+    font-size: 27px;
+}
+
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+}
+
+.card-container img{
+    margin-top: 20px;
+    height: 120px;
+    width: 260px;
+}
+
+.uni-card{
+
+}
+
+.card-h1{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.red-p{
+    color: tomato;
+    margin-top: 10px;
+}
+
+.icon-cont i{
+    color: yellow;
+}
+
+.rating{
+    display: inline;
+    color: gray;
+    margin-left: 10px;
+}
+
+.duration{
+    display: inline;
+    background-color: rgb(254, 212, 204);
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 5px 5px;
+}
+
+.duration img{
+    position: relative;
+    top: 4px;
+    height: 20px;
+    width: 20px;
+}
+
+
+/* Courses Section end */
